@@ -10,10 +10,10 @@ services:
     volumes:
       - "./:/usr/src/app/"
     network_mode: host
-  mosquitto:
-    container_name: mosquitto
-    image: eclipse-mosquitto:1.6.9
-    # ports:
-    #   - 1883:1883
-    #   - 9001:9001
-    network_mode: host
+  # mosquitto:
+  #   container_name: mosquitto
+  #   image: eclipse-mosquitto:1.6.9
+  #   # ports:
+  #   #   - 1883:1883
+  #   #   - 9001:9001
+  #   network_mode: host
